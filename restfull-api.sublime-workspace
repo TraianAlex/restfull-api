@@ -451,38 +451,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/Http/Controllers/MakerController.php",
-			"settings":
-			{
-				"buffer_size": 2515,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/VehicleController.php",
-			"settings":
-			{
-				"buffer_size": 384,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/MakerVehiclesController.php",
-			"settings":
-			{
-				"buffer_size": 3018,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Requests/CreateMakerRequest.php",
-			"settings":
-			{
-				"buffer_size": 562,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -540,17 +508,20 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/MakerController.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/VehicleController.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/MakerVehiclesController.php",
+		"/D/Dropbox/www/laravel/restfull-api/.env",
+		"/D/Dropbox/www/laravel/restfull-api/app/Exceptions/Handler.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Kernel.php",
-		"/D/Dropbox/www/laravel/restfull-api/app/Http/Requests/CreateVehicleRequest.php",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Guard.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Requests/CreateMakerRequest.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Requests/CreateVehicleRequest.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Middleware/OnceAuth.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Middleware/OAuthMiddleware.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/User.php",
-		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/VehicleController.php",
-		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/MakerController.php",
-		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/MakerVehiclesController.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/routes.php",
-		"/D/Dropbox/www/laravel/restfull-api/.env",
 		"/D/Dropbox/www/laravel/restfull-api/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/Auth/AuthController.php",
 		"/D/Dropbox/www/laravel/restfull-api/database/seeds/DatabaseSeeder.php",
@@ -664,10 +635,7 @@
 		"/C/Users/victor92/OneDrive/Laravel/scripts/A very complete intro to Laravel - udemy - source code/03 - Views/3.3 Conditionals And Loops/routes.php",
 		"/C/Users/victor92/OneDrive/Laravel/scripts/A very complete intro to Laravel - udemy - source code/03 - Views/3.2 Passing Data To Views/hello.blade.php",
 		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/D/Dropbox/www/laravel/laravel1/config/app.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/PhotoController.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/ShowPhotosRequest.php"
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf"
 	],
 	"find":
 	{
@@ -802,119 +770,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/Http/Controllers/MakerController.php",
-					"settings":
-					{
-						"buffer_size": 2515,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1775,
-								1775
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1827.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/Controllers/VehicleController.php",
-					"settings":
-					{
-						"buffer_size": 384,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/MakerVehiclesController.php",
-					"settings":
-					{
-						"buffer_size": 3018,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2163,
-								2163
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2010.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/Http/Requests/CreateMakerRequest.php",
-					"settings":
-					{
-						"buffer_size": 562,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 522.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
