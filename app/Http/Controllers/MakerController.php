@@ -15,7 +15,8 @@ class MakerController extends Controller {
 
 	public function __construct()
 	{
-		$this->middleware('oauth', ['except' => ['index', 'show']]);
+		$this->middleware('auth.basis.once', ['except' => ['index', 'show']]);
+		//$this->middleware('oauth', ['except' => ['index', 'show']]);
 	}
 	/**
 	 * Display a listing of the resource.
@@ -24,10 +25,12 @@ class MakerController extends Controller {
 	 */
 	public function index()
 	{
-		$makers = Cache::remember('makers', 15/60, function(){
-			return Maker::simplePaginate(15);
-		});
-		return response()->json(['next' => $makers->nextPageUrl(), 'previous' => $makers->previousPageUrl(), 'data' => $makers->items()], 200);
+		$makers = Maker::all();
+		return response()->json(['data' => $makers], 200);
+		// $makers = Cache::remember('makers', 15/60, function(){
+		// 	return Maker::simplePaginate(15);
+		// });
+		// return response()->json(['next' => $makers->nextPageUrl(), 'previous' => $makers->previousPageUrl(), 'data' => $makers->items()], 200);
 	}
 	/**
 	 * Store a newly created resource in storage.
@@ -66,11 +69,9 @@ class MakerController extends Controller {
 		if(!$maker){
 			return response()->json(['message' => 'This maker does not exist', 'code' => 404], 404);
 		}
-		$name = $request->get('name');
-		$phone = $request->get('phone');
 
-		$maker->name = $name;
-		$maker->phone = $phone;
+		$maker->name = $request->get('name');
+		$maker->phone = $request->get('phone');
 
 		$maker->save();
 		return response()->json(['message' => 'The maker has been updated'], 200);

@@ -14,7 +14,8 @@ class MakerVehiclesController extends Controller {
 
 	public function __construct()
 	{
-		$this->middleware('oauth', ['except' => ['index', 'show']]);
+		$this->middleware('auth.basis.once', ['except' => ['index', 'show']]);
+		//$this->middleware('oauth', ['except' => ['index', 'show']]);
 	}
 	/**
 	 * Display a listing of the resource.
@@ -78,15 +79,11 @@ class MakerVehiclesController extends Controller {
 		if(!$vehicle){
 			return response()->json(['message' => 'This vehicle does not exist', 'code' => 404], 404);
 		}
-		$color = $request->get('color');
-		$power = $request->get('power');
-		$capacity = $request->get('capacity');
-		$speed = $request->get('speed');
 
-		$vehicle->color = $color;
-		$vehicle->power = $power;
-		$vehicle->capacity = $capacity;	
-		$vehicle->speed = $speed;
+		$vehicle->color = $request->get('color');
+		$vehicle->power = $request->get('power');
+		$vehicle->capacity = $request->get('capacity');
+		$vehicle->speed = $request->get('speed');
 
 		$vehicle->save();
 		return response()->json(['message' => 'The vehicle has been updated'], 200);
