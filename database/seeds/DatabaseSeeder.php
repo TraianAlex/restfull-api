@@ -16,14 +16,15 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         DB::statement('SET FOREIGN_KEY_CHECKS = 0');
-        Maker::truncate();
-        User::truncate();
+        //Maker::truncate();
+        //User::truncate();
+        DB::table('oauth_clients')->truncate();
         Model::unguard();
 
-        // $this->call(UserTableSeeder::class);
-        $this->call('MakerSeed');
-        $this->call('VehiclesSeed');
-        $this->call('UsersSeed');
+        //$this->call(MakerSeed::class);
+        //$this->call(VehiclesSeed::class);
+        //$this->call(UsersSeed::class);
+        $this->call(OauthClientSeed::class);
         Model::reguard();
     }
 }

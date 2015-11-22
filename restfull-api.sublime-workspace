@@ -460,7 +460,7 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: List Packages"
+				"Package Control: Install Package"
 			],
 			[
 				"Snippet: try",
@@ -508,12 +508,24 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/routes.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/MakerController.php",
-		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/VehicleController.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/MakerVehiclesController.php",
+		"/D/Dropbox/www/laravel/restfull-api/config/oauth2.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/PasswordVerifier.php",
+		"/D/Dropbox/www/laravel/restfull-api/storage/logs/laravel.log",
+		"/D/Dropbox/www/laravel/restfull-api/database/seeds/DatabaseSeeder.php",
+		"/D/Dropbox/www/laravel/restfull-api/database/seeds/OauthClientSeed.php",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/D/Dropbox/www/laravel/ide_helper/_ide_helper.php",
+		"/D/Dropbox/www/laravel/restfull-api/database/seeds/MakerSeed.php",
+		"/D/Dropbox/www/laravel/restfull-api/composer.json",
+		"/D/Dropbox/www/laravel/restfull-api/config/app.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Kernel.php",
+		"/D/Dropbox/www/laravel/restfull-api/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/VehicleController.php",
 		"/D/Dropbox/www/laravel/restfull-api/.env",
 		"/D/Dropbox/www/laravel/restfull-api/app/Exceptions/Handler.php",
-		"/D/Dropbox/www/laravel/restfull-api/app/Http/Kernel.php",
 		"/D/Dropbox/www/laravel/restfull-api/vendor/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php",
 		"/D/Dropbox/www/laravel/restfull-api/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Guard.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Requests/CreateMakerRequest.php",
@@ -521,10 +533,7 @@
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Middleware/OnceAuth.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Middleware/OAuthMiddleware.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/User.php",
-		"/D/Dropbox/www/laravel/restfull-api/app/Http/routes.php",
-		"/D/Dropbox/www/laravel/restfull-api/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/Auth/AuthController.php",
-		"/D/Dropbox/www/laravel/restfull-api/database/seeds/DatabaseSeeder.php",
 		"/D/Dropbox/www/laravel/laravel4/app/Http/routes.php",
 		"/D/Dropbox/www/laravel/laravel4/app/Http/Controllers/HomeController.php",
 		"/D/Dropbox/www/laravel/laravel4/app/Providers/AppServiceProvider.php",
@@ -626,16 +635,7 @@
 		"/D/Dropbox/www/laravel/laravel2/public/static/css/style.css",
 		"/D/Dropbox/www/laravel/laravel2/vendor/illuminate/html/HtmlBuilder.php",
 		"/D/Dropbox/www/laravel/laravel2/public/static/js/script.js",
-		"/D/Dropbox/www/laravel/laravel2/config/app.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/about.blade.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/contact.blade.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/home.blade.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/master.blade.php",
-		"/C/Users/victor92/OneDrive/Laravel/scripts/A very complete intro to Laravel - udemy - source code/03 - Views/3.3 Conditionals And Loops/hello.blade.php",
-		"/C/Users/victor92/OneDrive/Laravel/scripts/A very complete intro to Laravel - udemy - source code/03 - Views/3.3 Conditionals And Loops/routes.php",
-		"/C/Users/victor92/OneDrive/Laravel/scripts/A very complete intro to Laravel - udemy - source code/03 - Views/3.2 Passing Data To Views/hello.blade.php",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/apache/conf/extra/httpd-vhosts.conf"
+		"/D/Dropbox/www/laravel/laravel2/config/app.php"
 	],
 	"find":
 	{
@@ -654,6 +654,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"create",
 			"input",
 			"redirect",
 			"userResolver",
@@ -867,6 +868,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 207.0,
+	"side_bar_width": 384.0,
 	"status_bar_visible": true
 }
