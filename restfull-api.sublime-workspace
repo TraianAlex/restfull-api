@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"st",
+				"storeFile〔function〕"
+			],
+			[
+				"public",
+				"public_path〔function〕"
+			],
+			[
+				"ar",
+				"array_keys"
+			],
+			[
 				"sec",
 				"select"
 			],
@@ -150,10 +162,6 @@
 			[
 				"valida",
 				"form_validation"
-			],
-			[
-				"st",
-				"style	Tag"
 			],
 			[
 				"load_",
@@ -508,20 +516,37 @@
 	},
 	"file_history":
 	[
+		"/C/Users/victor92/OneDrive/Angular/angular1/index.html",
+		"/C/Users/victor92/OneDrive/Angular/angular1/js/app.js",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/FileController.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Requests/CreateFileRequest.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Requests/UpdateFileRequest.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/File.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/routes.php",
+		"/D/Dropbox/www/laravel/restfull-api/composer.json",
+		"/D/Dropbox/www/laravel/restfull-api/app/Providers/AppServiceProvider.php",
+		"/D/Dropbox/www/laravel/restfull-api/restfull-api.sublime-project",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/lucadegasperi/oauth2-server-laravel/src/Storage/FluentStorageServiceProvider.php",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/lucadegasperi/oauth2-server-laravel/src/OAuth2ServerServiceProvider.php",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/lucadegasperi/oauth2-server-laravel/src/Facades/Authorizer.php",
+		"/D/Dropbox/www/laravel/restfull-api/config/app.php",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/lucadegasperi/oauth2-server-laravel/src/Middleware/OAuthMiddleware.php",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/lucadegasperi/oauth2-server-laravel/src/Middleware/OAuthExceptionHandlerMiddleware.php",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Kernel.php",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/league/oauth2-server/src/Grant/PasswordGrant.php",
+		"/D/Dropbox/www/laravel/restfull-api/config/oauth2.php",
+		"/C/Users/victor92/AppData/Local/Temp/fz3temp-1/.env",
+		"/C/Users/victor92/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/D/Dropbox/www/laravel/restfull-api/storage/logs/laravel.log",
+		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/PasswordVerifier.php",
+		"/D/Dropbox/www/laravel/restfull-api/vendor/lucadegasperi/oauth2-server-laravel/config/oauth2.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/MakerController.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/MakerVehiclesController.php",
-		"/D/Dropbox/www/laravel/restfull-api/config/oauth2.php",
-		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/PasswordVerifier.php",
-		"/D/Dropbox/www/laravel/restfull-api/storage/logs/laravel.log",
 		"/D/Dropbox/www/laravel/restfull-api/database/seeds/DatabaseSeeder.php",
 		"/D/Dropbox/www/laravel/restfull-api/database/seeds/OauthClientSeed.php",
 		"/D/Dropbox/www/laravel/restfull-api/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
 		"/D/Dropbox/www/laravel/ide_helper/_ide_helper.php",
 		"/D/Dropbox/www/laravel/restfull-api/database/seeds/MakerSeed.php",
-		"/D/Dropbox/www/laravel/restfull-api/composer.json",
-		"/D/Dropbox/www/laravel/restfull-api/config/app.php",
-		"/D/Dropbox/www/laravel/restfull-api/app/Http/Kernel.php",
 		"/D/Dropbox/www/laravel/restfull-api/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/D/Dropbox/www/laravel/restfull-api/app/Http/Controllers/VehicleController.php",
 		"/D/Dropbox/www/laravel/restfull-api/.env",
@@ -618,24 +643,7 @@
 		"/D/Dropbox/www/laravel/laravel2/database/migrations/2015_11_02_161446_add_timestamps.php",
 		"/D/Dropbox/www/laravel/laravel2/database/migrations/2015_11_02_155029_create_articles_table.php",
 		"/D/Dropbox/www/laravel/laravel2/database/migrations/2015_11_02_153108_add_genre_field.php",
-		"/D/Dropbox/www/laravel/laravel2/database/migrations/2015_11_02_152148_create_books_table.php",
-		"/D/Dropbox/www/laravel/laravel2/database/migrations/2014_10_12_100000_create_password_resets_table.php",
-		"/D/Dropbox/www/laravel/laravel2/database/migrations/2015_11_02_150233_create_recipes_table.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/hello2.blade.php",
-		"/D/Dropbox/www/laravel/laravel2/app/Http/Controllers/MilkshakeController.php",
-		"/D/Dropbox/www/laravel/laravel2/app/Http/Controllers/PortfolioController.php",
-		"/D/Dropbox/www/laravel/laravel2/app/Http/Controllers/RecipeController.php",
-		"/D/Dropbox/www/laravel/laravel2/app/Http/Controllers/HomeController.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/founds.blade.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/pages/about.blade.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/pages/contact.blade.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/layouts/master.blade.php",
-		"/D/Dropbox/www/laravel/laravel2/resources/views/hello.blade.php",
-		"/D/Dropbox/www/laravel/laravel2/.env",
-		"/D/Dropbox/www/laravel/laravel2/public/static/css/style.css",
-		"/D/Dropbox/www/laravel/laravel2/vendor/illuminate/html/HtmlBuilder.php",
-		"/D/Dropbox/www/laravel/laravel2/public/static/js/script.js",
-		"/D/Dropbox/www/laravel/laravel2/config/app.php"
+		"/D/Dropbox/www/laravel/laravel2/database/migrations/2015_11_02_152148_create_books_table.php"
 	],
 	"find":
 	{
@@ -859,7 +867,7 @@
 		[
 			[
 				"",
-				"/D/Dropbox/www/laravel/laravel2/laravel2.sublime-project"
+				"/D/Dropbox/www/laravel/laravel4-test/laravel4-test.sublime-project"
 			]
 		],
 		"width": 380.0
